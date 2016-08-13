@@ -1,0 +1,16 @@
+#url: pintsflightandbites.com
+description:
+title: Alex J Guardado
+markdown: kramdown
+highlighter: rouge
+
+#local dev url
+url: localhost: 3000
+
+#social usernames
+medium_username:
+linkedin_username:
+youtube_username:
+
+#Fetch your dropbox link to your downloadable resume and remove "https://dropbox.com/". Enter everything else left in the field below
+dropbox_pdf:

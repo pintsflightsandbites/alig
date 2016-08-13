@@ -1,0 +1,23 @@
+html {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	-moz-box-sizing: inherit;
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+/*Global*/
+.home_bg {
+	background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url('../images/alig.jpg') no-repeat top left;
+	width: 100%;
+	height: 100vh;
+}
+.home_bg > .container {
+	text-align: center;
+	display: block;
+	margin: auto;
+	color: white;
+}

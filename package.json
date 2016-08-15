@@ -1,0 +1,23 @@
+{
+  "name": "alig",
+  "version": "1.0.0",
+  "description": "Website for Alex Guardado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgetn/alig.git"
+  },
+  "author": "George Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgetn/alig/issues"
+  },
+  "homepage": "https://github.com/georgetn/alig#readme",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1"
+  }
+}

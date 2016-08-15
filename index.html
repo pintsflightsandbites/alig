@@ -3,33 +3,20 @@ layout: home
 title: Home of Ali G
 ---
 <div class="home_bg">
-	<div class="container">
+	<div class="container center">
 		<div class="row">
-			<div class="col-12 center">
+			<div class="col-12">
 				<h1>Alex J Guardado</h1>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-1 hidden-sm"></div>
-				<div class="col-10">
-					<ul class="social">
-						<li>
-						<a href="https://medium.com/{{site.medium_username}}" target="_blank">Medium</a>
-						</li>
-						<li>
-						<a href="https://linkedin.com/{{site.linkedin_username}}" target="_blank">LinkedIn</a>
-						</li>
-						<li>
-						<a href="https://{{site.url}}/about" target="_blank">About</a>
-						</li>
-						<li>
-						<a href="https://dropbox.com/{{site.dropbox_pdf}}" target="_blank">Resume</a>
-						</li>
-						<li>
-						<a href="https://youtube.com/{{site.youtube_username}}" target="_blank">Youtube</a>
-						</li>
-					</ul>
-				</div>
+			<div class="col-12">
+				<ul class="social">
+					<li><a aria-label="Medium" href="https://medium.com/{{site.medium_username}}" target="_blank"><svg class="icon icon-medium"><use xlink:href="#icon-medium"></use></svg></a></li>
+					<li><a aria-label="LinkedIn" href="https://linkedin.com/{{site.linkedin_username}}" target="_blank"><svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg></a></li>
+					<li><a aria-label="Resume" href="{{site.dropbox_pdf}}" target="_blank"><svg class="icon icon-resume"><use xlink:href="#icon-resume"></use></svg></a></li>
+					<li><a aria-label="YouTube" href="https://youtube.com/{{site.youtube_username}}" target="_blank"><svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg></a></li>
+				</ul>
 			</div>
 		</div>
 	</div>

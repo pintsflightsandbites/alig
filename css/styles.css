@@ -10,14 +10,57 @@ html {
 }
 
 /*Global*/
+html {
+	min-height:  100%;
+}
+body {
+	width:  100%;
+	height: 100%;
+	margin: 0;
+	padding:  0;
+	left:  0;
+	top:  0;
+	border:  0;
+	vertical-align:  baseline;
+
+	position:  absolute;
+	font-family:  'Sans-Serif';
+}
 .home_bg {
-	background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url('../images/alig.jpg') no-repeat top left;
+	background-color: #000000; /*linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url('../images/alig.jpg') no-repeat top left;*/
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 }
 .home_bg > .container {
 	text-align: center;
 	display: block;
 	margin: auto;
 	color: white;
+	padding-top:  5rem;
+}
+.home_bg h1 {
+	font-size: 5rem;
+	color:  #FFFFFF;
+	line-height:  1;
+}
+.icon {
+	margin:  0.625rem;
+	width:  6.5rem;
+	height:  6.5rem;
+}
+.social li {
+	display: inline-block;;
+	position:  relative;
+}
+.icon-medium {
+	fill: #FFFF00;
+}
+.icon-linkedin {
+	fill: #FFFF00;
+}
+.icon-resume {
+	fill: #FFFF00;
+}
+.icon-youtube {
+	fill: #FFFF00;
 }

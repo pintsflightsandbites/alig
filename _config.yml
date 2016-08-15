@@ -5,12 +5,15 @@ markdown: kramdown
 highlighter: rouge
 
 #local dev url
-url: localhost: 3000
+url: "http://localhost:3000"
 
-#social usernames
+#social usernames (username only)
 medium_username:
 linkedin_username:
 youtube_username:
 
-#Fetch your dropbox link to your downloadable resume and remove "https://dropbox.com/". Enter everything else left in the field below
+#Fetch your dropbox link to your downloadable resume and enter a full url with https included.
 dropbox_pdf:
+
+# exclude npm related files
+exclude: [']package.json', 'node_modules']

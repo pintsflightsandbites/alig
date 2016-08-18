@@ -8,9 +8,9 @@ highlighter: rouge
 url: "http://localhost:3000"
 
 #social usernames (username only)
-medium_username:
-linkedin_username:
-youtube_username:
+medium_username:alexjguardado
+linkedin_username:alex-guardado
+youtube_username:channel/UCPGK8MKpcZudg-xtKqV530A
 
 #Fetch your dropbox link to your downloadable resume and enter a full url with https included.
 dropbox_pdf:

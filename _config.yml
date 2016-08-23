@@ -1,19 +1,11 @@
-#url: pintsflightandbites.com
+url: pintsflightandbites.com
 description:
 title: Alex J Guardado
 markdown: kramdown
 highlighter: rouge
 
 #local dev url
-url: "http://localhost:3000"
-
-#social usernames (username only)
-medium_username:alexjguardado
-linkedin_username:alex-guardado
-youtube_username:channel/UCPGK8MKpcZudg-xtKqV530A
-
-#Fetch your dropbox link to your downloadable resume and enter a full url with https included.
-dropbox_pdf:
+#url: "http://localhost:3000"
 
 # exclude npm related files
 exclude: [']package.json', 'node_modules']

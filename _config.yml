@@ -13,7 +13,7 @@ linkedin_username: alex-guardado
 youtube_username: channel/UCPGK8MKpcZudg-xtKqV530A
 
 #Fetch your dropbox link to your downloadable resume and enter a full url with https included.
-dropbox_pdf: https://www.dropbox.com/home?preview=Alex+Guardado+Marketing+and+PR++Resume+2016.pdf
+dropbox_pdf: https://www.dropbox.com/s/e0yhbx12gwmgx5i/Alex%20Guardado%20Marketing%20and%20PR%20%20Resume%202016.pdf?dl=0
 
 # exclude npm related files
 exclude: [']package.json', 'node_modules']

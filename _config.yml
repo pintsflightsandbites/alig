@@ -1,11 +1,11 @@
-#url: pintsflightandbites.com
+url: pintsflightandbites.com
 description:
 title: Alex J Guardado
 markdown: kramdown
 highlighter: rouge
 
 #local dev url
-url: "http://localhost:3000"
+#url: "http://localhost:3000"
 
 #social usernames (username only)
 medium_username:alexjguardado
